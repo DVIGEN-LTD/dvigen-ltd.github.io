@@ -21,7 +21,6 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	cursor: pointer;
 	color: #F5EFFF;
 	border-bottom: 2px solid #41B3A2;
 }
@@ -51,12 +50,24 @@ body {
 	justify-content: space-between;
 }
 
+.link {
+	cursor: pointer;
+	transition: font-size 0.5s;
+}
+
+.link:hover {
+	color: #3B1E54;
+	font-size: 1.25em;
+}
+
 #logo-1 {
 	font-size: 2em;
+	cursor: default;
 }
 
 #logo-2 {
 	font-size: 0.75em;
+	cursor: default;
 }
 
 .link {
@@ -65,7 +76,7 @@ body {
 }
 
 #tagline {
-	font-size: 4em;
+	font-size: 3em;
 	color: #EEE;
 }
 
